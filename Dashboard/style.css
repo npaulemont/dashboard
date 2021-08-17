@@ -1,0 +1,139 @@
+body {
+  box-sizing: border-box;
+  max-width: 100vw;
+  font-family: Roboto, sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.header-container span {
+  align-self: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.header-container img {
+  align-self: center;
+}
+.header-patient-container {
+  border: 2px solid black;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+#total-patient {
+  font-size: 1.5rem;
+}
+.charts-container {
+  max-width: 99vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: space-evenly;
+  margin: 0 10px;
+}
+
+.chart {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: 0.3fr 2.2fr;
+  grid-template-rows: 0.2fr 0.8fr;
+  grid-template-areas:
+    "a c"
+    "b d";
+}
+.ch-nine {
+  width: 500px;
+  height: 350px;
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: 0.3fr 2.2fr;
+  grid-template-rows: 0.2fr 0.8fr;
+  grid-template-areas:
+    "a c"
+    "b d";
+}
+.ch-ten {
+  width: 500px;
+  height: 350px;
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: 0.3fr 2.2fr;
+  grid-template-rows: 0.2fr 0.8fr;
+  grid-template-areas:
+    "a c"
+    "b d";
+}
+.ch-eleven {
+  width: 500px;
+  height: 350px;
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: 0.3fr 2.2fr;
+  grid-template-rows: 0.2fr 0.8fr;
+  grid-template-areas:
+    "a c"
+    "b d";
+}
+.ch-twelve {
+  width: 500px;
+  height: 350px;
+  margin: 0.5rem;
+  background-position: center;
+  background-size: initial;
+  display: grid;
+  grid-template-columns: 0.3fr 2.2fr;
+  grid-template-rows: 0.2fr 0.8fr;
+  grid-template-areas:
+    "a c"
+    "b d";
+}
+
+.rect-1 {
+  grid-area: a;
+  background-color: rgb(0, 148, 168);
+}
+.rect-2 {
+  grid-area: b;
+  background-color: rgba(240, 240, 240, 1);
+}
+.rect-3 {
+  background-color: rgba(
+    93.50000202655792,
+    93.50000202655792,
+    93.50000202655792,
+    1
+  );
+  grid-area: c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rect-4 {
+  background-color: rgb(218, 218, 218);
+  grid-area: d;
+}
+
+.rect-4 img {
+  object-fit: cover;
+  max-width: 90%;
+  height: auto;
+}
+.chart-title {
+  color: white;
+  text-align: center;
+}
+.chart-data {
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  font-size: 36px;
+}
